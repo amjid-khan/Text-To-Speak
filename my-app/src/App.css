@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.container{
+    padding: 30px 30px;
+    background-color: gray;
+    width: 600px;
+    border-radius: 20px;
+}
+.container textarea{
+    width: 95%;
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    resize: none;
+
+}
+.container button {
+    margin-top: 20px;
+    padding: 17px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100% ;
+}
